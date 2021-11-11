@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>有興趣的MIS工作</title>
+
+	<style type="text/css">
+		*{
+			font-family: "標楷體"; }
+		header {
+			font-size: 36px;
+			color: #55ff55;}
+
+			.col-lg-4 {
+				border: 1px solid; }
+
+	</style>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<script>
+	$(document).ready(function(){
+		$("#I").hover(function(){
+			$("#PICTURE").attr("src","/static/images/321.jpg");
+		});
+		$("#PICTURE").click(function(){
+			$("#PICTURE").hide();
+			$("#PICTURE").fadeIn("slow")
+		});
+	});
+</script>
+</head>
+<body>
+	<nav class="navbar navbar-expand-md bg-primary navbar-dark">
+		<a class="navbar-brand" href="#">MENU</a>
+				
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+
+		<div class="collapse navbar-collapse" id="collapsibleNavbar">
+			<ul class="navbar-nav">
+				<li class="nav-item"><a class="nav-link" href="#aboutme">關於公司</a></li>
+            </ul>
+		</div>
+	</nav>
+
+
+	</nav>
+
+	<main class="container-fluid bg-primary text-white text-center">
+<main>
+
+	<nav>
+		<h1><a href="有興趣的MIS工司名稱"
+			class="text-reset text-decoration-none text-white bg-primary>"target="_blank" id="I">融程電訊股份有限公司
+			</h1>
+	</nav>
+	<img src="/static/images/321.jpg" alt="照片"class="img-fluid rounded-circle"id="PICTURE">
+	<br><br><br>
+<div class="row">
+	<session id="aboutme"class="col-1g-4">
+		<header>關於公司</header>
+		<h3>職缺:MIS程式設計師
+			簡介:
+			融程電訊股份有限公司(股票代號: 3416) 成立於1996年，為強固型平板電腦和手持式裝置之專業廠商，也是強固型電腦產業之領航者。產品廣泛應用於航太、船舶、軍警、物聯網、交通運輸、車廠維修檢測、醫療、石化、和製程控制等利基產業。 
+            本公司在研發階段無論是機板開發、軟體設計，皆遵循最高規格以符合現行物聯網 (IoT, Internet of Things) 及工業 4.0 等新趨勢，提供穩定的感應網絡、x86/ARM 架構平台、高規格主機板，加上防爆安全電路設計、強固機構設計、大尺寸觸控螢幕顯示等技術，結合既有強光下視、射頻 RF 技術、散熱模組、EMI/EMC 及 Optical bonding 等關鍵核心技術，並通過高規格之防爆專業認證。為主要研發方向。 
+            在管理流程系統方面，本公司多年來不遺餘力建構改善全方位管理流程體系，自 2002 年以來陸續通過及取得 ISO 9001 品質管理、ISO 14001 環境管理、IECQ QC080000 有害物質流程管理、ISO 14064-1 溫室氣體查證、CG6004/6006 公司治理、ISO 13485 醫療器材品質管理等系統之認證，並於去年再通過 IECEx & ATEX 防爆產品認證，積極拓展多元化的利基市場，建立永續卓越的管理體系以服務客戶。 
+            展望未來，本公司將秉持「永續經營，創造價值，利益平衡」的經營理念，行銷服務全世界客戶，並期許成為「產業智慧終端科技的領航者」。面對經濟與科技環境迅速變化的影響與挑戰，深信未來在專心經營與積極努力下，公司研發、產銷業務定能穩健成長，為公司創造永續價值。
+		</h3>
+		<h3>Tel:<a href="tel:09-12345678"
+			class="text-reset text-decoration-none text-white bg-info">09-12345678</a></h3>
+</div><br><br>
+	<footer>
+		<?php echo date("Y-m-d") ?>
+	</footer>
+</main>
